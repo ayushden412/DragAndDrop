@@ -1,0 +1,36 @@
+.container {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+  
+.item {
+    background-color: #eee;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+  
+.item:hover {
+    background-color: #ddd;
+}
+  
+.dragging {
+    opacity: 0.5;
+}
+
+button{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: aqua;
+}
+
+button:hover {
+    background-color: green;
+}
